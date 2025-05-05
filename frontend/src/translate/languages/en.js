@@ -826,6 +826,9 @@ const messages = {
             disabled: "disabled",
           },
         },
+        FileUploadLimit: {
+          title: "File Upload Limit (MB)",
+        },
         FileDownloadLimit: {
           title: "File Download Limit (MB)",
         },
@@ -874,6 +877,14 @@ const messages = {
         },
         AudioTranscriptions: {
           title: "Audio Transcriptions",
+        },
+        TagsMode: {
+          title: "Tags Mode",
+          options: {
+            ticket: "Ticket",
+            contact: "Contact",
+            both: "Ticket and Contact"
+          },
         },
       },
       messagesList: {
